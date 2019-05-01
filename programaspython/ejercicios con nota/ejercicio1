@@ -1,0 +1,8 @@
+lista = []
+n = int(input("ingrese el largo de la lista: "))
+while n < 1:
+	n = int(input("ingrese el largo de la lista: "))
+for i in range(0, n):
+	lista.append(input("ingrese nombre de usuario: "))
+for i in lista:
+	print("Hola ", i)
